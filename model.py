@@ -9,7 +9,7 @@ def add_note():
     title=input("Введите заголовок заметки: ")
     body=input("Введите текст заметки: ")
     date=datetime.now().strftime("%d.%m.%Y %H:%M:%S")
-    id=str(uuid.uuid4())
+    id=input("Введите номер заметки: ")
     new_note=Note(id,title,body,date)
     notes.append(new_note)
     save_notes(notes)

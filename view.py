@@ -10,13 +10,3 @@ def print_message(message: str):
     print('\n'+'='*len(message))
     print(message)
     print('='*len(message)+'\n')
-
-###
-###def print_contacts(book: list[dict[str,str]],error:str):
-###    if book: 
-   ###     print('\n'+'='*71)
-      ######   print(f'{contact.get("id"):>3}.{contact.get("name"):<20}|{contact.get("phone"):<20}|{contact.get("comment"):<20}')
-       ### print('='*71+'\n')
-    ###else:
-      ###  print_message(error)
-###

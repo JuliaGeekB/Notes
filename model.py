@@ -69,7 +69,7 @@ def view_notes():
         filtered_notes = notes
     if filtered_notes:
         for note in filtered_notes:
-            print(f'{note.id}.{note.title}:{note.body} - ({note.date})')
+            print(f'{note.id}   {note.title}:{note.body} - ({note.date})')
     else:
         print ('Нет заметок для отображения')
 

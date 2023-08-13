@@ -14,12 +14,12 @@ def start():
             # model.open_pb()    
             # model.save_pb()
             #     view.print_message(text.save_successful)
-            # case 3:
-            #     pb=model.get_pb()
-            #     view.print_contacts(pb, text.pb_empty)
-            # case 4:
-            #     contact=view.input_contact(text.input_new_contact)
-            #     name=model.add_contact(contact)
+            #case 3:
+            #    model.read_notes()
+            #    view.print_message(text.)
+            case 4:
+                model.edit_note()
+                view.print_message(text.edit_successful)
             #     view.print_message(text.new_contact_successful(name))
             # case 5:
             #     key_word=view.input_search()
